@@ -1,5 +1,4 @@
-import React from 'react';
-import JessicaPrimeApp from './JessicaPrimeApp';
+import JessicaPrimeApp from "./JessicaPrimeApp";
 
 function App() {
   return <JessicaPrimeApp />;
