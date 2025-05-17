@@ -28,4 +28,7 @@ export default function JessicaPrimeApp() {
       </Card>
     </div>
   );
+export default function JessicaPrimeApp() {
+  return <h1>Jéssica Prime App rodando! 🚀</h1>;
 }
+
