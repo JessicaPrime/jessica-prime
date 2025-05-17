@@ -1,12 +1,10 @@
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Switch } from "@/components/ui/switch";
-import { Checkbox } from "@/components/ui/checkbox";
-
+import { Button } from "./components/ui/button";
+import { Card, CardContent } from "./components/ui/card";
+import { Input } from "./components/ui/input";
+import { Textarea } from "./components/ui/textarea";
+import { TabsList, TabsTrigger } from "./components/ui/tabs";
+import { Switch } from "./components/ui/switch";
+import { Checkbox } from "./components/ui/checkbox";
 export default function JessicaPrimeApp() {
   const [diario, setDiario] = useState("");
   const [humor, setHumor] = useState("Estável");
